@@ -13,7 +13,9 @@ namespace NUnitTestProject1.Steps
 
         public void GivenIHaveEnteredMsantiagopcpAndTestPasswordInTextboxes(string uname, string pwd)
         {
-            // ScenarioContext.Current.Pending();     
+            // ScenarioContext.Current.Pending();    
+            
+            //codde changed by sahil after clonnihg 
             var driver = (IWebDriver)ScenarioContext.Current["driverref"];
             driver.FindElement(By.XPath("//div[label[contains(.,'Username')]]/input[@name='username']")).SendKeys(uname);
             System.Threading.Thread.Sleep(5000);
