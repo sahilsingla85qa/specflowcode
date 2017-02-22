@@ -60,6 +60,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>login2.feature</DependentUpon>
     </Compile>
+    <Compile Include="Steps\Class1.cs" />
     <Compile Include="Steps\Login2Steps.cs" />
     <Compile Include="Steps\LoginSteps.cs" />
   </ItemGroup>
