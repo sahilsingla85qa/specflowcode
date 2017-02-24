@@ -21,8 +21,7 @@ namespace NUnitTestProject1.Steps
             System.Threading.Thread.Sleep(5000);
             driver.FindElement(By.XPath("//div[label[contains(.,'Password')]]//input[@name='password']")).SendKeys(pwd);
             System.Threading.Thread.Sleep(5000);     
-                   
-
+           
         }
     }
 }
